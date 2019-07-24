@@ -1,3 +1,51 @@
 html{
     background-color: red;
 }
+div{
+    background-color: cornflowerblue;
+}
+
+.redText{
+    background-color: blueviolet;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px black dotted;
+}
+
+#person {
+    font-family: fantasy;
+    border: 1px solid crimson;
+    width: 75%;
+    max-width: 400px;
+    height: 250px;
+}
+
+li a {
+    color: beige
+}
+
+ul, footer {
+    background-color: aquamarine;
+}
+/* psuedo selector
+li: :first-child {
+font-size: 34px;
+} */
+
+img{
+    border: 10px solid forestgreen;
+    padding: 10px;
+    margin: 20px;
+    background-color: chartreuse;
+}
+
+li{
+      display: inline-block;
+      justify-content: space-around;
+}
+
+h1{
+    margin: 50%
+}

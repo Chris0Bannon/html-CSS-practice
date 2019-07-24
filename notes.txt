@@ -64,3 +64,47 @@ You can change anything by resetting its property in CSS
 the entire internet used to run on tables but we have moved to divs!
 head establishes coloumns, and the body establishes rows!  There are a lot 
 tags involved in tables.  Have fun using them LOL
+
+In CSS there are two main things that are very important.
+
+The first is selecting elements! and make sure that we are influencing
+the thing that we want to influence! an element selector will get everything
+with that thing.  Usually a broad page wide selector like
+div{
+
+}  
+is ineffecient.  you should likely use the class attribute to change multiple
+of the same selectors.  you would do that with a '.' in front of your name.
+
+you could also use and id.  you should use an id only once per page.  That is 
+great if you need to change only version of an element that appears several times
+on the same page.  You would change an ID with a hash #.
+
+YOU SHOULD USE IDs for JQUERY and classes for styles.
+
+you can also select everything on the entire page if you use *.
+
+There is hierarchy and weight to what shows up if an element selected 
+in more than one way.  * is god!
+
+compound selectors hit an element nested inside another one. 
+see the link in our ol in the nav!
+
+putting a comma between two selectors will effect both.  see our ol
+and our footer!
+
+Every element on the webpage follows the box model! you can view it in your
+devtools using the source clicker.  
+
+There is content, padding, border, and margin.  all boxes around other boxes.
+check the img tag for a visualize. you can also changes the sizes of all of
+them in real time using the dev tools!
+
+you can also change the size of things with height and width.  You can use
+a percentage value on your selector so that your css will be responsive.
+Use max height or width so that it will respond up to a certain size. check
+the person selector to see this in action!!!
+
+display is describing block or inline elements!  you can then move them
+around more easily.  Check flexbox froggy out!!
+if you want to center things check out csstricks.com/centering-css-complete-guide/!
