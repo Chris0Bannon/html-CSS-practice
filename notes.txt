@@ -1,0 +1,28 @@
+html =hyper text mark up language.
+CSS = cascading style sheets.
+
+html is the architecture structure, the building blocks, the pillars and columns.
+css is the wall paper, carpet and drapes.
+
+Both are backwards compatible.  The spaceJam website still works.
+https://spacejam.com/archive/spacejam/movie/jam.htm
+you can check it out in the dev tools here.
+
+Css works from the top down, thats what cascading means!
+
+the goal of these two languages is too render content on a webpage
+JavaScripts job is to play with that content.
+
+browsers inherent jobs are to make sense of these languages.
+
+a static webpage stay the same.  like the space jam site.
+static webpages tend to have a lot of repeated code.
+
+
+a dynamic webpage is a page that moves. 
+much of the content is generated.
+
+when you start a new webpage draw it out first.
+
+
+
