@@ -24,5 +24,43 @@ much of the content is generated.
 
 when you start a new webpage draw it out first.
 
+in html an element is a section of the page, and the tag is name,
+and container for it.  Some elements are self closing, but most will
+need a second tag to end them.
+
+elements can be nested within one another.  the span tag is nested in 
+the body tag!  there is another span tag nested in the p tag, and that p 
+tag is nested in a div tag.  that div is in the body.
+
+browsers will try to render everything you give it.  Even if it is 
+invalid.  
+
+tables, lists, and dropdown menus can be complicated to use.  browsers
+will attempt to render them, but often times will not be able to do it
+predictably.
+
+attributes are ways to alter elements.  Usually those are written with
+an equals sign within a tag.  for example, id or class.
+
+there are container elements in html.  we have used a div tag in our html
+there are other styles of container, many of them are there for
+accesibility. back in the day everything was a div!  now we can 
+use header so that it is easy to tell wtf is going on.
+
+what is contained int the alt"" quotes is used to describe things to someone
+using a screen reader.
+
+Some elements are called inline elements, they appear in the same line.
+span button and input are the most common of these!
+
+block level elements will take u pthe whole page and be the only thing on that line
+headers, list items, divs, p tags, images
+
+div is great if you want to place something as a block
+and span is great if you want to place something inline
+You can change anything by resetting its property in CSS
 
 
+the entire internet used to run on tables but we have moved to divs!
+head establishes coloumns, and the body establishes rows!  There are a lot 
+tags involved in tables.  Have fun using them LOL
